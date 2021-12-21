@@ -1,24 +1,30 @@
-# This is a Squirrel story base problem.
-# Here in this user give (first input) place name where squirrel saw nutshell bundles.
-# Second input gave after seen the bundles squirrel what, action taked.
+''' 
+This is a Squirrel story base problem.
+Here in this user give (first input) place name where squirrel saw nutshell bundles.
+Second input gave after seen the bundles squirrel what, action taked.
 
-# input format:
+input format:
 
-# fist input : okala
+fisrt input : King name.
 
-# second input : collect all and run away.
+second input : Minister name.
+
+working place name : farm,
 
 
-# output : 
-# Squirrel was very hungry. She passed from okala and saw the bundles, and she feeling very happy and start jumpping, she collect and run away.
+output for The Pot of the Wit story : 
+Once Emperor Akbar became very angry at his favorite minister Birbal. He asked Birbal to leave the kingdom and go away. Accepting the command of the Emperor, Birbal left the kingdom and started working in a farm,
 
- # Creating class here
+output for Crows in the Kingdom story : 
+One day Emperor Akbar and Birbal were taking a walk in the palace gardens. It was a nice summer morning and there were plenty of crows happily playing around the pond.
+
+'''
 class Kingdom:                             
     def __init__(self, act , first , second , action):      
-        self.act = act
-        self.first = first
-        self.second = second
-        self.action = action
+        self.act = act   # Story name
+        self.first = first  # First name (King name) print location 0
+        self.second = second  # Second name (Minister name) print location 1
+        self.action = action   # Location name (Shope name) print location 2
     
     def story(self):
         if self.act=="king":

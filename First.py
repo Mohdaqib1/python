@@ -1,4 +1,35 @@
-class Kingdom:                             
+class Aqib:
+    def __init__(self , name , age):
+        self.name = name
+        self.age = age
+
+
+    def update(self):
+        self.age = 30
+        self.upd = "update"
+
+a1 = Aqib("aqib",20)
+a2 = Aqib("Saifi",18)
+print("detail", a1.age,a1.name)
+print("detail", a2.age,a2.name)
+a2.update()
+print("detail", a2.age,a2.name,a2.upd)
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''class Kingdom:                             
     def __init__(self, act , first , second , action):      
         self.act = act
         self.first = first
@@ -25,7 +56,7 @@ if __name__ == '__main__':
     obj.story()
 
 
-
+'''
 
 
 '''  def __init__(mysillyobject, name, age):

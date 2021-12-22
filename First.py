@@ -1,9 +1,70 @@
-class Aqib:
+class Test:
+    def __init__(self, a , b):
+        self.a=a
+        self.b=b
+
+    def sum(self):
+        print(a+ b)
+        
+a=input("enter: ")
+b=input("enter: ")
+p=Test(a,b)
+p.sum()
+
+
+
+
+
+
+
+
+'''print("You are in Aqib Program")
+print("Wellcom To Aqib Program")
+print("If you create a new accout so please write create other wise you have allready create a accouunt then you write sigin")
+for i in range(1 , 5):
+    account =input("Please enter this action (create or sign) : ")
+    if account=="create":
+        username = input("Please enter your name : ")
+        usermail = input("Please enter your mail : ")
+        dob      = input("Plaase enter your date-Of-Birth : ")
+        password = input("Create your password : ")
+        conformpassword = input("Please re enter your Pass for matching : ")
+        if password == conformpassword:
+            print("your acount hase been created")
+        else:
+            print("Please check your conform password")
+            
+        break
+    elif account=="sign":
+        usermail = input("Please enter your mail : ")
+        password = input("Please enter your password : ")
+        if usermail == "mohdaqib79656@gmail.com" and password == "MohdAqib123456":
+            print("Hello Mohd Aqib")
+        else:
+            print("Please enter right information")
+        break
+    else:
+        print("Please enter correct action")
+'''
+
+
+
+'''mystr = "banannaaa"
+
+
+for i in mystr:
+    print(i)
+
+'''
+
+
+
+'''class Aqib:
     def __init__(self , name , age):
         self.name = name
         self.age = age
 
-
+print("detail", a2.age,a2.name)
     def update(self):
         self.age = 30
         self.upd = "update"
@@ -15,7 +76,7 @@ print("detail", a2.age,a2.name)
 a2.update()
 print("detail", a2.age,a2.name,a2.upd)
         
-
+'''
 
 
 

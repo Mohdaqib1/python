@@ -1,7 +1,8 @@
 ''' 
-This is a Squirrel story base problem.
-Here in this user give (first input) place name where squirrel saw nutshell bundles.
-Second input gave after seen the bundles squirrel what, action taked.
+This is a Kingdom story base problem.
+Here you take act as a choice for your select story
+Here in this user give (first input & second input) as name.
+Action input  Location name.
 
 input format:
 
